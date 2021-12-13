@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2020_11_24_020659) do
+=======
+ActiveRecord::Schema.define(version: 2020_11_24_015000) do
+>>>>>>> 7cf9d5f007c7fafccf4095874ae181698e72d895
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -40,7 +44,7 @@ ActiveRecord::Schema.define(version: 2020_11_24_020659) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
-  
+
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.integer "number_of_pages"
